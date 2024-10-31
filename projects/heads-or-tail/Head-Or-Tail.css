@@ -1,0 +1,39 @@
+*{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 200px;
+	margin: 20px auto;
+	text-align: center;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.btn-head{
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.btn-reset,
+.autoplay{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+

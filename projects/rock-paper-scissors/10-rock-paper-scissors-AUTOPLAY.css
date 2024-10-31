@@ -1,0 +1,39 @@
+body{
+    font-family: arial;
+    
+  }
+  .title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .move-icon{
+    height: 50px;
+    border: dotted;
+    border-radius: 60px;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .move-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  }
+  .result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score{
+    margin-top: 50px;
+  }
+  .reset-button,
+  .auto-play-button{
+     border: solid;
+     font-size: 15px;
+     font-weight: bold;
+     padding: 10px 15px;
+     border-radius: 50px;
+     cursor: pointer;
+     background-color: rgb(204, 146, 0);
+  }
+ 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Head-oR-Tail cpoy</title>
+        <link rel="stylesheet" href="Head-Or-Tail.css">
+    </head>
+    <body>
+        <div class="box"> 
+        <h1>Head or Tail</h1>
+
+        <button class="js-btn-head btn-head">HEAD</button>
+
+        <button class="js-btn-tail btn-tail">TAIL</button>
+
+        <p class="js-result"></p>
+        <p class="js-choices"></p>
+        <p class="js-score"></p>
+
+        <button onclick="
+        score.wins = 0;
+        score.losses = 0;
+        localStorage.removeItem('score');
+        updateScore();
+        " class="btn-reset">Reset Score</button>
+
+        <button class="js-btn-autoplay autoplay">AutoPlay</button>
+
+        </div>
+
+       
+ 
+        <script src="Head-Or-Tail.js"> </script>
+    </body>
+</html>
